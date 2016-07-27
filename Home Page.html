@@ -307,16 +307,18 @@
                                     <div class="top">
 
                                         <br>
-                                        <table id = "test" border="1" style="color: forestgreen;">
-                                        <tbody>
-                                            <tr>
-                                                <td>优先级</td>
-                                                <td>声客</td>
-                                                <td>消息</td>
-                                                <td>时间</td>
-                                            </tr>
+                                        <table class="table-filling" border="1" align="left">
+                                            <tbody id="test">
+                                                <tr>
+                                                    <th class="priority">优先级</th>
+                                                    <th class="users">声客</th>
+                                                    <th class="message">消息</th>
+                                                    <th class="time">时间</th>
+                                                </tr>
+                                            </tbody>
+                                            <link rel="stylesheet" type="text/css" href="./Home Page_files/tableStyleSheet.css">
                                         </table>
-                                        </tbody>
+                                        <br>
                                         <br>
                                         <script>
                                             createTable("Miller/Ryan/Tim/Lana", "what?/Come on/tell you what/Fine", "10:00/12:00/13:00/14:00");
