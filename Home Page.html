@@ -231,10 +231,13 @@
                             <div class="statistic-big" style="position:relative;height:inherit;">
                                 <div class="top" style="z-index:1000;position:relative;">
                                     <div class="left">
-                                        <h4 id="stockName">上证指数</h4>
-                                        <h4 id="stockPrice">成交价：</h4>
-                                        <h4 id="stockVolume">成交量：</h4>
-                                    </div>
+                                         <h4 id="stockName">上证指数</h4></div>
+                                    <div style="z-index:100;position: relative;top:15px;left: 40px;">
+                                        <b> 当前价格:
+                                            <span>1212</span></b>
+                                        <b>成交量:
+                                            <span> 1313</span></b></div>
+
                                     <div style="position:relative;float:right;">
                                         <input id="Code" type="text" placeholder="stockCode" class="input-small" style="z-index:200;margin:10px;" onkeypress="if (event.keyCode == 13) { changeStock(); }">
                                         <button class="btn" onclick="changeStock();">转到</button>
